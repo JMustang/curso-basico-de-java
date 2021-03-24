@@ -7,4 +7,4 @@
 3. terceira aula:metodos getter, setter e constructor
 4. quarta aula: Exemplo Prático com Objetos
 5. quinta aula: Pilares da POO. E.H.P, Encapsulamento, Heranca e Polimorfismo.
-6. Objetos Compostos em Java.
+6. sexta aula: Objetos Compostos em Java.
