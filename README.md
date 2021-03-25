@@ -8,3 +8,4 @@
 4. quarta aula: Exemplo Prático com Objetos
 5. quinta aula: Pilares da POO. E.H.P, Encapsulamento, Heranca e Polimorfismo.
 6. sexta aula: Objetos Compostos em Java.
+7. setima aula: Agregação entre Objetos.
