@@ -9,3 +9,4 @@
 5. quinta aula: Pilares da POO. E.H.P, Encapsulamento, Heranca e Polimorfismo.
 6. sexta aula: Objetos Compostos em Java.
 7. setima aula: Agregação entre Objetos.
+8. Exercicios teoricos de POO.
