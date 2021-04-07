@@ -29,10 +29,10 @@ public class Gafanhato extends Pessoa{
 
     @Override
     public String toString() {
-        return "Gafanhato{" + super.toString()
+        return "Gafanhato\n{" + super.toString()
                 + "\nlogin: " + login + 
-                ", totAssistindo: " + totAssistindo + 
-                '}';
+                ", \ntotAssistindo: " + totAssistindo + 
+                "\n}";
     }
     
     
