@@ -3,53 +3,44 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
-        System.out.println("Digite 1 para somar");
-        System.out.println("Digite 2 para subitrair");
-        System.out.println("Digite 3 para multiplicar");
-        System.out.println("Digite 4 para dividir");
+        int x = 0;
+        double num1, num2, res;
 
-        int i = in.nextInt();
+        do {
 
-        System.out.println("Digite o primeiro numero: ");
-        double num1 = in.nextDouble();
+            num1 = num2 = res = 0;
 
-        System.out.println("Digite o segundo numero: ");
-        double num2 = in.nextDouble();
+            System.out.println(" 1 - somar");
+            System.out.println(" 2 - subitrair");
+            System.out.println(" 3 - multiplicar");
+            System.out.println(" 4 - dividir");
+            System.out.println(" 0 - sair");
 
-        // if (i == 1) {
-        // System.out.println(num1 + num2);
-        // } else if (i == 2) {
-        // System.out.println(num1 - num2);
-        // } else if (i == 3) {
-        // System.out.println(num1 * num2);
-        // } else if (i == 4) {
-        // System.out.println(num1 / num2);
-        // } else {
-        // System.out.println("Operacao invalida");
-        // }
+            System.out.println("Digite o codigo da operacao");
+            x = in.nextInt();
 
-        switch (i) {
-        case 1:
-            // code block
-            System.out.println(num1 + num2);
-            break;
-        case 2:
-            // code block
-            System.out.println(num1 - num2);
-            break;
-        case 3:
-            // code block
-            System.out.println(num1 * num2);
-            break;
-        case 4:
-            // code block
-            System.out.println(num1 / num2);
-            break;
-        case 5:
-            // code block
-            System.out.println("Operacao invalida");
-            break;
-        default:
-        }
+            if (x != 0) {
+                System.out.println("Digite o primeiro numero ");
+                num1 = in.nextDouble();
+
+                System.out.println("Digite o primeiro numero ");
+                num2 = in.nextDouble();
+
+                if (x == 1) {
+                    res = num1 + num2;
+                } else if (x == 2) {
+                    res = num1 - num2;
+                } else if (x == 3) {
+                    res = num1 * num2;
+                } else if (x == 4) {
+                    res = num1 / num2;
+                }
+                System.out.println("____________");
+                System.out.println("O resultado foi " + res);
+                System.out.println("____________");
+            }
+        } while (x != 0);
+
     }
+
 }
